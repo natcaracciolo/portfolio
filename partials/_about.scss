@@ -1,0 +1,29 @@
+
+.about {
+    background-color: #c4d7d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    background-color: #5f9595;
+    padding: .5rem 1rem;
+}
+
+.about-text {
+    width: 50%;
+      
+}
+
+.drawing {
+    width: 50%;
+        img {
+            width: 100%;
+        }
+}
+
+.about-container {
+    display:flex;
+    align-items:center;
+}

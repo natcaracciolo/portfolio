@@ -1,0 +1,78 @@
+@import "../partials/_setup";
+@import "../partials/_nav";
+@import "../partials/about";
+@import "../partials/portfolio";
+@import "../partials/contact";
+@import "../partials/skills";
+@import "../partials/header";
+
+
+
+// overall styles
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+
+h1{
+    margin: 0;
+    font-family: 'Oswald';
+    font-size: 60px;
+    color: #1B2A49;
+}
+
+p {
+    font-family: 'open sans condensed';
+    font-size: 18px;
+    letter-spacing: .5px;
+    color: #222222;
+}
+
+section {
+    min-height: 100vh;
+    
+}
+
+// put in partial later 
+
+header {
+    min-height:100vh;
+    // background-color;
+    align-items: center;
+   justify-content: center;
+   background-color: #F5DAD5;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header h1 {
+    font-size: 150px; 
+    width: 10rem;
+   
+
+}
+
+header h2 {
+    display:flex;
+    justify-content: flex-end
+}
+
+
+.header-box {
+    background-color: #EE9772;
+    height: 33rem;
+    width:100%;
+    padding: 5rem
+}
+
+.links a {
+    text-decoration: none;
+    margin: 1rem;
+}

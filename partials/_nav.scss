@@ -1,0 +1,32 @@
+ 
+
+
+nav {
+  
+    position: fixed;
+    right: 0;
+    margin-left: 2rem;
+    top: 10rem;
+    width: 8rem;
+    z-index: 10;
+    margin-right: 0.5rem;
+
+}
+
+ul {
+
+    li {
+    display: flex;
+    flex-direction: column;
+        
+      a {
+        color: #222222;
+        display: inline-block;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+  }
+}
+
