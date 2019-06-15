@@ -5,11 +5,8 @@
 @import "../partials/contact";
 @import "../partials/skills";
 @import "../partials/header";
-@import "../partials/header-links";
+@import "../partials/link-decoration";
 @import "../partials/typed-h2";
-
-
-
 
 
 // overall styles
@@ -43,7 +40,8 @@ section {
     
 }
 
-
-
-
+h2 {
+    margin: 0;
+    padding: 0;
+}
 

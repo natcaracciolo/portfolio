@@ -1,18 +1,23 @@
-.skills h1 {
-    text-align: center;
-}
+
 
 .skills {
     background-color: #D1E7CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.skills-text {
+.skills-container {
+    display:flex;
+}
+
+.skills-text, .skills-icons {
+    background-color: #3E8E96;
     width:50%;
 }
 
-.skills-icons {
-    width: 50%;
-}
+
+
 
 
 

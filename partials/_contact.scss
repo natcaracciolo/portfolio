@@ -10,12 +10,19 @@
     background-color: #f0bc68;
 }
 
+.contact h1 {
+    margin-left: 16rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
 
 
 .contact form input,
 textarea {
     font-size: 1rem;
-
     width: 100%;
     padding: .5rem;
     margin: .7rem 0;
@@ -50,7 +57,6 @@ textarea {
 
 
 .contact-info {
-    // margin-top: 5rem;
     padding: 5rem;
     display: flex;
     align-items: center;
@@ -58,10 +64,4 @@ textarea {
    background-color: #F3DD7B;
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   justify-content: center;
-}
 
