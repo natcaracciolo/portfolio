@@ -5,6 +5,10 @@
 @import "../partials/contact";
 @import "../partials/skills";
 @import "../partials/header";
+@import "../partials/header-links";
+@import "../partials/typed-h2";
+
+
 
 
 
@@ -39,40 +43,7 @@ section {
     
 }
 
-// put in partial later 
-
-header {
-    min-height:100vh;
-    // background-color;
-    align-items: center;
-   justify-content: center;
-   background-color: #F5DAD5;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-header h1 {
-    font-size: 150px; 
-    width: 10rem;
-   
-
-}
-
-header h2 {
-    display:flex;
-    justify-content: flex-end
-}
 
 
-.header-box {
-    background-color: #EE9772;
-    height: 33rem;
-    width:100%;
-    padding: 5rem
-}
 
-.links a {
-    text-decoration: none;
-    margin: 1rem;
-}
+

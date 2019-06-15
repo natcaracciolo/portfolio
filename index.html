@@ -9,17 +9,9 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Londrina+Outline&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Archivo+Narrow|Londrina+Outline|Montserrat&display=swap"
-    rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Archivo+Narrow|Londrina+Outline|Montserrat|Oswald&display=swap"
-        rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Archivo+Narrow|Londrina+Outline|Montserrat|Oswald|Yeseva+One&display=swap"
+     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Archivo+Narrow|Londrina+Outline|Montserrat|Oswald|Yeseva+One&display=swap"
             rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
    
 </head>
     <main>
@@ -32,8 +24,20 @@
 
                     </div>
                     <div class="header-box">
-                        <h1>NatalieCaracciolo</h1>
-                        <h2>Front-End Developer</h2> 
+                        <h1>Natalie Caracciolo</h1>
+
+                        <div class="typed-container">
+                            <div id="typed-strings">
+                                <h2>Music Lover</h2>
+                                <h2>Good Human</h2>
+                                <h2>Front-End Developer</h2>
+                                
+                            </div>
+
+                            <span id="typed"></span>
+                        </div>
+                            
+                    </div>
                         <nav>
                             <ul>
                                 <li>
@@ -45,7 +49,7 @@
                                 </li>
                             </ul>
                         </nav>
-                    </div>
+                  
                 </div>
             </header>
 
@@ -201,6 +205,16 @@
 
 
             </footer>
+
+            <script>
+                const typed = new Typed('#typed', {
+                    stringsElement: '#typed-strings',
+                    bakcSpeed: 50,
+                    typeSpeed: 50
+                });
+            </script>
+
+        
 
 
         </body>

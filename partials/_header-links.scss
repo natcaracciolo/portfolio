@@ -1,0 +1,35 @@
+
+.links {
+     margin: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #1B2A49;
+    font-family: 'oswald';
+    font-size: 20px;
+     margin: 2rem 1rem;
+}
+
+
+.links a, .links a:visited {
+  text-decoration: none;
+  position: relative;
+  color: #1B2A49;
+}
+
+.links a:after, .links a:visited:after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background: #EE9772;
+  transition: 0.2s;
+}
+.links a:hover:after, .links a:visited:hover:after {
+  width: 100%;
+}
+
+
