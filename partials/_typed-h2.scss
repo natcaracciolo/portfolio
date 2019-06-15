@@ -1,6 +1,11 @@
 .typed-container {
     display: flex;
     justify-content: flex-end;
-    margin-right: 3rem;
-    font-size: 30px;
+    // margin-right: 2rem;
+    font-size: 35px;
+    font-family: 'b612 mono';
+}
+
+.typed-cursor.typed-cursor--blink {
+    margin: 0 .4rem;
 }

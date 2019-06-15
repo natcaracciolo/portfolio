@@ -387,7 +387,6 @@ header {
 header h1 {
   font-size: 130px;
   text-align: center;
-  margin-top: 3rem;
 }
 
 #typed {
@@ -402,7 +401,7 @@ header h1 {
 
 .header-box {
   background-color: #EE9772;
-  padding: 5rem;
+  padding: 9rem 7.5rem;
 }
 
 .links {
@@ -446,8 +445,12 @@ header h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 3rem;
-  font-size: 30px;
+  font-size: 35px;
+  font-family: 'b612 mono';
+}
+
+.typed-cursor.typed-cursor--blink {
+  margin: 0 .4rem;
 }
 
 .wrapper {
