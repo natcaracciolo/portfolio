@@ -10,7 +10,7 @@ header {
 }
 
 header h1 {
-    font-size: 130px; 
+    font-size: 125px; 
     text-align: center;
 
 
@@ -19,7 +19,7 @@ header h1 {
 #typed {
     display:flex;
     justify-content: flex-end;
-    // margin-right: 3rem;
+  
     display: inline-block;
 }
 
@@ -27,4 +27,101 @@ header h1 {
 .header-box {
     background-color: #EE9772;
     padding: 9rem 7.5rem;
+}
+
+.contact-link,
+.about-link {
+    margin-top: 1.5rem;
+}
+
+
+
+//responsive
+
+@media (max-width: 1241px) {
+
+    header .header-box {
+        padding: 1px;
+    }
+
+    header h1 {
+        font-size: 120px;
+
+    }
+    .links {
+        display: none;
+    }
+}
+
+@media (max-width: 1081px) {
+
+    header h1 {
+        font-size: 110px;
+    }
+
+    header .typed-container {
+        font-size: 30px;
+    }
+
+    nav {
+        position: static;
+        margin: 0;
+         ul {
+              margin-left: 0;
+             padding-left: 0;
+         }
+
+         li {
+              flex-direction: row;
+         }
+    }  
+  
+}
+
+@media (max-width: 840px) {
+
+    header h1 {
+        font-size:100px;
+    }
+
+     header .typed-container {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 646px) {
+
+    header h1 {
+        font-size: 90px;
+       
+    }
+
+    ul li a {
+        padding: 1.3rem;
+        font-size: 1.3rem;
+        
+    }
+
+    header .typed-container {
+        font-size: 19px;
+    }
+
+     header .wrap img {
+        left: 44%;
+    }
+
+}
+
+@media (max-width: 556px) {
+
+
+    header h1 {
+        font-size: 60px;
+        margin: 2rem 0;
+    }
+    header .typed-container {
+        margin: 2rem 0;
+    }
+
 }

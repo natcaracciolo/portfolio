@@ -27,3 +27,50 @@
     display:flex;
     align-items:center;
 }
+
+
+
+//responsive
+
+@media (max-width: 960px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .drawing {
+        width: 70%;
+    }
+
+    .about-text {
+        width: 80%;
+    }
+}
+
+@media (max-width: 783px) {
+    .drawing {
+        width: 80%;
+    }
+
+     .about-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 610px) {
+    
+     .drawing {
+        width: 90%;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+        .drawing {
+            width: 105%;
+        }
+}
+

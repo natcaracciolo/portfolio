@@ -7,6 +7,9 @@
 @import "../partials/header";
 @import "../partials/link-decoration";
 @import "../partials/typed-h2";
+@import "../partials/header-arrow";
+@import "../partials/footer";
+
 
 
 // overall styles
@@ -30,7 +33,7 @@ h1{
 
 p {
     font-family: 'open sans condensed';
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: .5px;
     color: #222222;
 }
@@ -41,7 +44,18 @@ section {
 }
 
 h2 {
+    font-family: 'Oswald';
+    color: #1B2A49;
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
 

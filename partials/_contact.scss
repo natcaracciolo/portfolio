@@ -65,3 +65,33 @@ textarea {
 }
 
 
+// responsive 
+
+@media (max-width: 1079px) {
+
+    .headshot {
+        display: none;
+    }
+
+    .contact-info {
+        padding: 1rem;
+    }
+
+    .contact form {
+        padding: 0;
+    }
+}
+
+@media (max-width: 745px) {
+    .contact h1 {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact form {
+        width: 100%;
+    }
+}
+

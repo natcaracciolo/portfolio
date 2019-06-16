@@ -248,24 +248,68 @@ ul li a {
           align-items: center;
 }
 
-.portfolio h1 {
-  width: 25rem;
-  font-size: 60px;
+@media (max-width: 960px) {
+  .about-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .drawing {
+    width: 70%;
+  }
+  .about-text {
+    width: 80%;
+  }
+}
+
+@media (max-width: 783px) {
+  .drawing {
+    width: 80%;
+  }
+  .about-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 610px) {
+  .drawing {
+    width: 90%;
+  }
+  .about h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .drawing {
+    width: 105%;
+  }
 }
 
 .portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
-.websites {
-  width: 50%;
+.site-text,
+.site-image {
+  width: 43%;
+}
+
+.site-text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact form {
@@ -351,6 +395,31 @@ textarea {
   background-color: #F3DD7B;
 }
 
+@media (max-width: 1079px) {
+  .headshot {
+    display: none;
+  }
+  .contact-info {
+    padding: 1rem;
+  }
+  .contact form {
+    padding: 0;
+  }
+}
+
+@media (max-width: 745px) {
+  .contact h1 {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact form {
+    width: 100%;
+  }
+}
+
 .skills {
   background-color: #D1E7CC;
   display: -webkit-box;
@@ -392,7 +461,7 @@ header {
 }
 
 header h1 {
-  font-size: 130px;
+  font-size: 125px;
   text-align: center;
 }
 
@@ -411,11 +480,86 @@ header h1 {
   padding: 9rem 7.5rem;
 }
 
+.contact-link,
+.about-link {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1241px) {
+  header .header-box {
+    padding: 1px;
+  }
+  header h1 {
+    font-size: 120px;
+  }
+  .links {
+    display: none;
+  }
+}
+
+@media (max-width: 1081px) {
+  header h1 {
+    font-size: 110px;
+  }
+  header .typed-container {
+    font-size: 30px;
+  }
+  nav {
+    position: static;
+    margin: 0;
+  }
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  nav li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (max-width: 840px) {
+  header h1 {
+    font-size: 100px;
+  }
+  header .typed-container {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 646px) {
+  header h1 {
+    font-size: 90px;
+  }
+  ul li a {
+    padding: 1.3rem;
+    font-size: 1.3rem;
+  }
+  header .typed-container {
+    font-size: 19px;
+  }
+  header .wrap img {
+    left: 44%;
+  }
+}
+
+@media (max-width: 556px) {
+  header h1 {
+    font-size: 60px;
+    margin: 2rem 0;
+  }
+  header .typed-container {
+    margin: 2rem 0;
+  }
+}
+
 .links {
   margin: 1rem;
   position: absolute;
   left: 0;
-  top: 20rem;
+  top: 16rem;
   width: 8rem;
   z-index: 10;
   margin-right: 0.5rem;
@@ -470,6 +614,122 @@ a:hover:after, a:visited:hover:after {
   margin: 0 .4rem;
 }
 
+.wrap img {
+  line-height: 60px;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  height: 50px;
+  width: auto;
+}
+
+.bounce {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation: bounce 3.6s ease infinite;
+          animation: bounce 3.6s ease infinite;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  5.55556% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  11.11111% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  22.22222% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  27.77778% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  33.33333% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  44.44444% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  5.55556% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  11.11111% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  22.22222% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  27.77778% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  33.33333% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  44.44444% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2B3D4F;
+}
+
+footer p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+footer a {
+  padding: 3px;
+}
+
+.copyright a {
+  color: white;
+}
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
@@ -488,7 +748,7 @@ h1 {
 
 p {
   font-family: 'open sans condensed';
-  font-size: 18px;
+  font-size: 19px;
   letter-spacing: .5px;
   color: #222222;
 }
@@ -498,6 +758,8 @@ section {
 }
 
 h2 {
+  font-family: 'Oswald';
+  color: #1B2A49;
   margin: 0;
   padding: 0;
 }
