@@ -471,7 +471,7 @@ textarea {
 
 .skills {
   background-color: #F3DD7B;
-  height: 400px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -481,6 +481,24 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons i {
+  padding: 3rem;
+  font-size: 40px;
+  color: #2B3D4F;
 }
 
 header {
@@ -772,7 +790,7 @@ footer a {
 
 .skills {
   background-color: #F3DD7B;
-  height: 400px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -782,6 +800,24 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons i {
+  padding: 3rem;
+  font-size: 40px;
+  color: #2B3D4F;
 }
 
 .wrapper {

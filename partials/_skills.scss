@@ -1,10 +1,55 @@
 .skills {
     background-color: #F3DD7B;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    padding:3rem;
+    font-size: 40px;
+    color:  #2B3D4F;
+}
+
+// .html {
+//     color: #2B3D4F;
+// }
+
+// .css {
+//     color: #3E8E96;
+// }
+
+// .js {
+//     color: #EE9772;
+// }
+
+// .sass {
+//     color:#2B3D4F;
+// }
+
+// .react {
+//     color: #3E8E96;
+// }
+
+// .square {
+//     color: #EE9772;
+// }
+
+// .github {
+//     color: #2B3D4F;
+// }
+
+// .vs {
+//     color:#3E8E96;
+// }
+
 
 
 
