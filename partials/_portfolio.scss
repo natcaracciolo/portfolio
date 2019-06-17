@@ -1,21 +1,47 @@
 
+
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    background-color: #D1E7CC
+}
+
+.portfolio h1 {
+    padding-top:3rem;
+    width: 40%;
+}
+
+.websites {
+    margin-left: 12rem;
+    
+}
+
+.website {
+    margin-top: 2rem;
+}
+
+.portfolio h2 {
+    padding: 1rem 0;
+}
+
+
+.site-image {
+    margin-top: 2rem;
+    padding: 0 1rem;
 }
 
 .site-text,
 .site-image {
-    width: 43%;
-    // margin:2rem;
-
+    width: 50%;
 }
 
 .site-text {
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 0 1rem;
+
+   
 }
+
 
 .site-location {
     display: flex;
@@ -24,3 +50,4 @@
 .site-location h2 {
     padding: .2rem;
 }
+

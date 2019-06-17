@@ -6,30 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>natalie caracciolo / web dev</title>
+    <link rel="shortcut icon" href="assets/favicon-3.png" />
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Archivo+Narrow|Londrina+Outline|Montserrat|Oswald|Yeseva+One&display=swap"
-            rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono|Open+Sans+Condensed:300|Oswald&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+
    
 </head>
     <main>
         <body>
+
+        <!-- HEADER -->
             <header>
                 <div class="wrapper">
                     <div class="links">
 
-                        <dov class="portfolio-link">
-                            <a href="portfolio.html">Portfolio</a>
-                        </dov>
-                        <div class="about-link">
-                            <a href="about.html">About Me</a>
+                        
+                        <div class="about-link" aria-label="about">
+                            <a href="#section-1">About Me</a>
+                        </div>
+
+                        <div class="portfolio-link" aria-label="portfolio">
+                            <a href="#section-2">Portfolio</a>
                         </div>
                        
-                        <div class="contact-link">
-                            <a href="contact.html">Contact me</a>
+                        <div class="contact-link" aria-label="contact">
+                            <a href="#section-3">Contact me</a>
                         </div>
                     </div>
 
@@ -40,8 +44,7 @@
                             <div id="typed-strings">
                                 <h2>Music Lover</h2>
                                 <h2>Good Human</h2>
-                                <h2>Front-End Developer</h2>
-                                
+                                <h2>Front-End Developer</h2>       
                             </div>
                             <span id="typed"></span>
                         </div> 
@@ -49,11 +52,11 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://twitter.com/natcaracciolo"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/in/natalie-caracciolo-b1096a164/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://github.com/natcaracciolo"><i class="fab fa-github"></i></a>
-                                    <a href="https://medium.com/@nataliecaracciolo"><i class="fab fa-medium-m"></i></a>
-                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                    <a href="https://twitter.com/natcaracciolo" aria-label="go to natalie's twitter"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/natalie-caracciolo-b1096a164/"  aria-label="go to natalie's Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/natcaracciolo"  aria-label="go to natalie's github"><i class="fab fa-github"></i></a>
+                                    <a href="https://medium.com/@nataliecaracciolo"  aria-label="go to natalie's medium"><i class="fab fa-medium-m"></i></a>
+                                    <a href="mailto:nataliecaracciolo@gmail.com"  aria-label="email natalie"><i class="fas fa-envelope"></i></a>
                                 </li>
                             </ul>
                         </nav>
@@ -61,23 +64,25 @@
 
 
                 <div class="wrap">
-                    <img src="http://image.flaticon.com/icons/svg/3/3907.svg" id="arrow" class="animated bounce">
+                    <img src="http://image.flaticon.com/icons/svg/3/3907.svg" id="arrow" class="animated bounce" alt="a scroll down icon">
                 </div>
             </header>
 
-            <section class="about">
+        <!-- ABOUT SECTION -->
+
+            <section class="about" id="section-1">
                 <div class="wrapper">
                     <div class="about-container">
-                    <div class="drawing">
-                        <img src="assets/NATALIE-IS-SO-PRETTY.png" alt="a drawing of yours truly!">
-                    </div>
+                        <div class="drawing">
+                            <img src="assets/NATALIE-IS-SO-PRETTY.png" alt="a drawing of Natalie done by Jack Dettmer">
+                        </div>
 
                     <div class="about-text">
                         <h1>Hi, I'm Natalie!</h1>
             
                         <p class="highlight">I am a Front-End Web Developer based in Toronto. My passion is creating design-based apps and websites that focus on user interaction and accessibility.</p>
                         
-                        <p>Having grown up in Trinidad, I've learned to see the beauty
+                        <p>Having grown up between Trinidad and Canada, I've learned to see the beauty
                         in perspective, and the strength in diversity. That’s what I love about web development - I have the opportunity
                         to create incredible websites in an environment that celebrates being unique. I decided that tech is where I want to be,
                         so I took the plunge into the Web Development Immersive program at HackerYou. I love how challenging yet rewarding programming
@@ -87,110 +92,147 @@
                     </div>
                 </div>
             </section>
+        
+        <!-- PORTFOLIO SECTION -->
 
-            <section class="portfolio">
-            
-                   <div class="site-image">
-                        <img src="assets/theme-song.jpg" alt="">
-                   </div>
+            <section class="portfolio" id="section-2">
+        
+                <div class="websites wrapper">
+                    <div clas="portfolio-header">
+                        <h1>Here's A Small Selection Of My Work:</h1>
+                    </div>
 
-                   <div class="site-text">
-                        <h2>What's your 1980's theme song?</h2>
-                        <p>A fun and interactive quiz programmed using vanilla Javascript and jQuery. Because knowing which 80's theme song suits you best is important information to have!! </p>
-
+                    <div class="website">
+                        <div class="site-text">
+                            <h2>What's your 1980's theme song?</h2>
+                            <h3>Javascript / jQuery / HTML5 / Sass</h3>
+                            <p>A fun and interactive quiz. Because knowing which 80's theme song suits
+                                you best is important information to have!! </p>
+                        
                             <div class="site-location">
                                 <h2>
                                     <a href="https://natcaracciolo.github.io/natalie-caracciolo-project-3-1st/">Live / </a>
                                 </h2>
                                 <h2>
-                                    <a href="https://github.com/natcaracciolo/natalie-caracciolo-project-3-1st"> Github</a>
+                                    <a href="https://natcaracciolo.github.io/natalie-caracciolo-project-3-1st/"> Github</a>
                                 </h2>
                             </div>
-                   </div>
-
-                   <div class="site-text">
-                    <h2>Horoscope App</h2>
-                    <p>A dynamic, simple horoscope app to brighten your day! Using React and REST APIs.</p>
-
-                        <div class="site-location">
-                            <h2>
-                                <a href="https://natcaracciolo.github.io/natalie-caracciolo-project-5/">Live / </a>
-                            </h2>
-                            <h2>
-                                <a href="https://github.com/natcaracciolo/natalie-caracciolo-project-5"> Github</a>
-                            </h2>
                         </div>
-                   </div>
 
-                   <div class="site-image">
-                    <img src="assets/horoscope.jpg" alt="">
-                   </div>
-                  
-                   <div class="site-image">
-                        <img src="assets/dinner.jpg" alt="">
-                   </div>
-
-                   <div class="site-text">
-                         <h2>What's For Dinner?</h2>
-                        <p>A site that solves the never-ending problem of what too eat tonight. Programmed using Javascript and 2 REST APIs. Created
-                        in conjunction with a wonderful human, Alice Lau.</p>
-
-                        <div class="site-location">
-                            <h2>
-                                <a href="https://alice-lau.github.io/gh-pages-natalieCaraccioloAliceLauProjectFour/">Live / </a>
-                            </h2>
-                            <h2>
-                                <a href="https://github.com/Alice-Lau/gh-pages-natalieCaraccioloAliceLauProjectFour"> Github</a>
-                            </h2>
+                        <div class="site-image">
+                            <img src="assets/theme-song.jpg" alt="screenshot of app called what's your 80's theme song?">
                         </div>
                     </div>
-                    <div class="site-text">
-                        <h2>Last Minute Cocktails</h2>
-                        <p>An app that allows a user to discover drink recipes by name or by ingredient. Programmed using React and REST API's.</p>
+
+                    <div class="website">
+                        <div class="site-image">
+                            <img src="assets/horoscope.jpg" alt="photo of horoscope app">
+                        </div>
+
+                        <div class="site-text">
+                            <h2>Horoscope App</h2>
+                            <h3>React / API / HTML5 / Sass</h3>
+                            <p>A dynamic horoscope app to brighten your day! Just type in your astrological sign and you will given some cool advice, your lucky color and even your sign compatibility.</p>
+                            
+                            <div class="site-location">
+                                <h2>
+                                    <a href="https://natcaracciolo.github.io/natalie-caracciolo-project-5/">Live / </a>
+                                    </h2>
+                                <h2>
+                                    <a href="https://github.com/natcaracciolo/natalie-caracciolo-project-5"> Github</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="website">
+                        <div class="site-text">
+                            <h2>What's For Dinner?</h2>
+                            <h3>Javascript / jQuery / HTML5 / Sass</h3>
+                            <p>A site that solves the never-ending problem of where to go out to eat. Created in conjunction with a wonderful human, Alice
+                                Lau.</p>
+                    
+                            <div class="site-location">
+                                <h2>
+                                    <a href="https://alice-lau.github.io/gh-pages-natalieCaraccioloAliceLauProjectFour/">Live / </a>
+                                </h2>
+                                <h2>
+                                    <a href="https://github.com/Alice-Lau/gh-pages-natalieCaraccioloAliceLauProjectFour"> Github</a>
+                                </h2>
+                            </div>
+                        </div>
+                    
+                        <div class="site-image">
+                            <img src="assets/dinner.jpg" alt="photo of app called 'what's for dinner?''">
+                        </div>
+                    </div>
+
+
+                    
+
+                    <div class="website">
+                         <div class="site-image">
+                             <img src="assets/cocktails.jpg" alt="photo of app called 'last minute cocktails'">
+                        </div>
+
+                        <div class="site-text">
+                            <h2>Last Minute Cocktails</h2>
+                            <h3>React / Firebase / API </h3>
+                            <p>An app that allows a user to discover drink recipes by name or by ingredient.</p>
 
                             <div class="site-location">
                                 <h2>
                                     <a href="https://lastminutecocktailgenerator.firebaseapp.com/">Live / </a>
-                                </h2>
-                                <h2>
+                                    </h2>
+                                    <h2>
                                     <a href="https://github.com/projectsixgroupone/lastMinuteCocktails"> Github</a>
                                 </h2>
                             </div>
-                    </div>
+                        </div>
+                   </div>
 
-                    <div class="site-image">
-                        <img src="assets/cocktails.jpg" alt="">
-                    </div>
 
-                    <div class="site-image">
-                        <img src="assets/fun-place.jpg" alt="">
-                    </div>
-
-                    <div class="site-text">
-                        <h2>Fun PLace</h2>
-                        <p>A PSD conversion using HTML, CSS and Sass.</p>
+                    <div class="website">
+                    
+                        <div class="site-text">
+                            <h2>Fun PLace</h2>
+                            <h3>HTML5 / Sass / Git</h3>
+                            <p>A responsive PSD conversion website</p>
+                    
                             <div class="site-location">
                                 <h2>
-                                    <a href="">Live / </a>
+                                    <a href="https://natcaracciolo.github.io/natalieCaraccioloProjectTwo/">Live / </a>
                                 </h2>
+                            
                                 <h2>
                                     <a href="https://github.com/natcaracciolo/natalieCaraccioloProjectTwo"> Github</a>
                                 </h2>
                             </div>
-                    </div>        
+                        </div>
+                        <div class="site-image">
+                            <img src="assets/fun-place.jpg" alt="photo of website called 'fun place'">
+                        </div>
+                    </div>
+                </div>      
             </section>
+
+        <!-- SKILLS SECTION -->
+
+        
+        
+        <!-- CONTACT SECTION -->
 
             <section class="contact">
              
                     <h1>Let's Chat!</h1>
               
                     <div class="wrapper">
-                        <div class="contact-info">
+                        <div class="contact-info" id="section-3">
                             <div class="headshot">
                                 <img src="assets/headshot.jpeg" alt="headshot of natalie caracciolo">
                             </div>
 
-                            <form action="">
+                            <form action="https://formspree.io/nataliecaracciolo@gmail.com" method="POST" />
 
                                 <input type="text" name="name" placeholder="name" aria-label="name" required="">
 
@@ -198,33 +240,21 @@
 
                                 <textarea id="message" name="comments" placeholder="message" aria-label="message" required=""></textarea>
 
-                                <input class="submit" type="submit" value="Get In Touch">
+                                <input class="submit" type="submit" name="name" value="Get In Touch">
                             </form>
                         </div>
                     </div>
-
-                    <!-- <div class="contact-email">
-                        <a href="">Prefer Good Ol' Email?</a>
-                    </div> -->
             </section>
+
+        <!-- FOOTER -->
 
             <footer>
                 <div class="copyright">
                    <p> Natalie Caracciolo 2019. Art by Jack Dettmer: <a href="https://www.instagram.com/art_of_jack/?hl=en"><i class="fab fa-instagram"></i></a></p>
-               
-
             </footer>
 
-            <script>
-                const typed = new Typed('#typed', {
-                    stringsElement: '#typed-strings',
-                    bakcSpeed: 40,
-                    typeSpeed: 60
-                });
-            </script>
-
-        
-
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+            <script src="script.js"></script>
 
         </body>
     </main>

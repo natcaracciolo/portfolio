@@ -17,6 +17,15 @@
 .wrapper {
     width: 80%;
     margin: 0 auto;
+    
+}
+
+section {
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 img {
@@ -38,17 +47,15 @@ p {
     color: #222222;
 }
 
-section {
-    min-height: 100vh;
-    
-}
-
-h2 {
+h2,
+h3 {
     font-family: 'Oswald';
     color: #1B2A49;
     margin: 0;
     padding: 0;
 }
+
+
 
 
 

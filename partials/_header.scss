@@ -19,7 +19,6 @@ header h1 {
 #typed {
     display:flex;
     justify-content: flex-end;
-  
     display: inline-block;
 }
 
@@ -29,8 +28,9 @@ header h1 {
     padding: 9rem 7.5rem;
 }
 
+.about-link,
 .contact-link,
-.about-link {
+.portfolio-link {
     margin-top: 1.5rem;
 }
 

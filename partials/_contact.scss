@@ -6,8 +6,15 @@
     width: 70%;
 }
 
+.website {
+    display: flex;
+    // flex-direction: column;
+    // justify-content: flex-end;
+}
+
 .contact {
     background-color: #f0bc68;
+    height: 100vh;
 }
 
 .contact h1 {
