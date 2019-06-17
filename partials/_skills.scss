@@ -1,6 +1,5 @@
 .skills {
     background-color: #F3DD7B;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +7,7 @@
 
 .skills-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -18,37 +18,21 @@
     color:  #2B3D4F;
 }
 
-// .html {
-//     color: #2B3D4F;
-// }
+//responsive 
 
-// .css {
-//     color: #3E8E96;
-// }
+@media(max-width: 1378px) {
+    .icons i {
+        padding: 2rem;
+    }
+}
 
-// .js {
-//     color: #EE9772;
-// }
+@media(max-width: 1054px) {
+    .icons i {
+        padding: 1rem;
+    }
+}
 
-// .sass {
-//     color:#2B3D4F;
-// }
 
-// .react {
-//     color: #3E8E96;
-// }
-
-// .square {
-//     color: #EE9772;
-// }
-
-// .github {
-//     color: #2B3D4F;
-// }
-
-// .vs {
-//     color:#3E8E96;
-// }
 
 
 
