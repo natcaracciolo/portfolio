@@ -8,8 +8,6 @@
 
 .website {
     display: flex;
-    // flex-direction: column;
-    // justify-content: flex-end;
 }
 
 .contact {
@@ -39,6 +37,8 @@ textarea {
     border: none;
     border-bottom:  1px solid black;
     background-color: #F3DD7B;
+    -webkit-appearance: none;
+           outline: none;
    
 }
 

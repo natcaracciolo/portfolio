@@ -6,12 +6,19 @@
 
 .portfolio h1 {
     padding-top:3rem;
-    width: 40%;
+    width: 50%;
 }
 
 .websites {
     margin-left: 12rem;
     
+}
+
+.text-1 {
+    text-align: right;
+        .site-location {
+            justify-content: flex-end;
+        }
 }
 
 .website {
