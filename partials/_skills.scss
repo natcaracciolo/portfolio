@@ -18,6 +18,11 @@
     color:  #2B3D4F;
 }
 
+.icons i:hover,
+.vs i:hover {
+    transform: scale(1.08);
+}
+
 //responsive 
 
 @media(max-width: 1378px) {

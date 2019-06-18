@@ -544,6 +544,12 @@ textarea {
   color: #2B3D4F;
 }
 
+.icons i:hover,
+.vs i:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
 @media (max-width: 1378px) {
   .icons i {
     padding: 2rem;
@@ -874,6 +880,12 @@ footer a {
   padding: 3rem;
   font-size: 40px;
   color: #2B3D4F;
+}
+
+.icons i:hover,
+.vs i:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 
 @media (max-width: 1378px) {
