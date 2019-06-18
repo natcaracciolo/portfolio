@@ -6,20 +6,20 @@
 }
 
 .site-image img {
-    box-shadow: 20px 20px #C4D7D1;;
+    box-shadow: 20px 20px #C4D7D1;
 }
 
 
 .image-2 img {
    
-    box-shadow: -20px 20px #C4D7D1;;
+    box-shadow: -20px 20px #C4D7D1;
 }
 
 
 
 .portfolio h1 {
     color: #C4D7D1;
-    width: 50%;
+    width: 70%;
     padding: 1rem;
 
 }
@@ -71,5 +71,27 @@
 
 .site-location h2 {
     padding: .2rem;
+}
+
+//responsive 
+
+@media (max-width: 954px) {
+    .website {
+        flex-direction: column;
+    }
+
+    .site-image,
+    .site-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 690px) {
+
+    .portfolio h1 {
+        font-size: 40px;
+
+    }
+
 }
 
