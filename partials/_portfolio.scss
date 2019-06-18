@@ -16,7 +16,6 @@
 }
 
 
-
 .portfolio h1 {
     color: #1B2A49;
     width: 70%;
@@ -93,6 +92,10 @@
         font-size: 40px;
 
     }
+
+    .website.text-1.flex-1.aos-init.aos-animate {
+    flex-direction: column-reverse;
+}
 
     
 
