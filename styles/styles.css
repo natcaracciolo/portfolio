@@ -288,24 +288,25 @@ ul li a {
 }
 
 .portfolio {
-  background-color: #3E8E96;
+  background-color: #F5DAD5;
   padding: 4rem 0;
 }
 
 .site-image img {
-  -webkit-box-shadow: 20px 20px #C4D7D1;
-          box-shadow: 20px 20px #C4D7D1;
+  -webkit-box-shadow: 20px 20px #EE9772;
+          box-shadow: 20px 20px #EE9772;
 }
 
 .image-2 img {
-  -webkit-box-shadow: -20px 20px #C4D7D1;
-          box-shadow: -20px 20px #C4D7D1;
+  -webkit-box-shadow: -20px 20px #EE9772;
+          box-shadow: -20px 20px #EE9772;
 }
 
 .portfolio h1 {
-  color: #C4D7D1;
+  color: #1B2A49;
   width: 70%;
   padding: 1rem;
+  background-color: #EE9772;
 }
 
 .websites {
@@ -414,7 +415,7 @@ ul li a {
 }
 
 .contact h1 {
-  margin-left: 16rem;
+  margin-left: 10rem;
   padding-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -539,15 +540,14 @@ textarea {
 }
 
 .icons i {
-  padding: 3rem;
+  padding: 2.6rem;
   font-size: 40px;
   color: #2B3D4F;
 }
 
-.icons i:hover,
-.vs i:hover {
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+.icons i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (max-width: 1378px) {
@@ -676,7 +676,6 @@ header h1 {
 
 .links {
   margin: 1rem;
-  position: absolute;
   left: 0;
   top: 16rem;
   width: 8rem;
@@ -877,15 +876,14 @@ footer a {
 }
 
 .icons i {
-  padding: 3rem;
+  padding: 2.6rem;
   font-size: 40px;
   color: #2B3D4F;
 }
 
-.icons i:hover,
-.vs i:hover {
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+.icons i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (max-width: 1378px) {
@@ -937,5 +935,9 @@ h3 {
   color: #1B2A49;
   margin: 0;
   padding: 0;
+}
+
+.links {
+  position: fixed;
 }
 /*# sourceMappingURL=styles.css.map */

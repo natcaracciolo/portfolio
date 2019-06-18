@@ -7,12 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>natalie caracciolo / web dev</title>
     <link rel="shortcut icon" href="assets/favicon-3.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Open+Sans+Condensed:300|Oswald&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script type="text/javascript" src="jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
    
 </head>
@@ -74,11 +76,13 @@
             <section class="about" id="section-1">
                 <div class="wrapper">
                     <div class="about-container">
-                        <div class="drawing">
+
+                        <div class="drawing" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                             <img src="assets/NATALIE-IS-SO-PRETTY.png" alt="a drawing of Natalie done by Jack Dettmer">
                         </div>
+                        
 
-                    <div class="about-text">
+                    <div class="about-text" data-aos="fade-left">
                         <h1>Hi, I'm Natalie!</h1>
             
                         <p class="highlight">I am a Front-End Web Developer based in Toronto. My passion is creating design-based apps and websites that focus on user interaction and accessibility.</p>
@@ -99,14 +103,15 @@
             <div class="skills">
                <div class="skills-container wrapper">
                     <div class="icons">
-                        <span class="html"><i class="fab fa-html5"></i></span>
-                        <span class="css"><i class="fab fa-css3-alt"></i></span>
-                        <span class="js"><i class="fab fa-js-square"></i></span>
-                        <span class="sass"><i class="fab fa-sass"></i></span>
-                        <span class="react"><i class="fab fa-react"></i></span>
-                        <span class="square"><i class="fab fa-git-square"></i></span>
-                        <span class="github"><i class="fab fa-github"></i></span>
-                        <span class="vs"><i class="devicon-visualstudio-plain"></i></span>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js-square"></i>
+                        <i class="fab fa-sass"></i>
+                        <i class="fab fa-react"></i>
+                        <i class="fab fa-git-square"></i>
+                        <i class="fab fa-github"></i>
+                        <i class="devicon-visualstudio-plain"></i>
+                        <i class="devicon-jquery-plain"></i>
                     </div>
                </div>
             </div>
@@ -116,11 +121,11 @@
             <section class="portfolio" id="section-2">
         
                 <div class="websites wrapper">
-                    <div clas="portfolio-header">
+                    <div clas="portfolio-header" data-aos="fade-right">
                         <h1>A Small Selection Of My Work:</h1>
                     </div>
 
-                    <div class="website text-1">
+                    <div class="website text-1" data-aos="fade-up" data-aos-duration="1000">
                         <div class="site-text">
                             <h2>What's your 1980's theme song?</h2>
                             <h3>Javascript / jQuery / HTML5 / Sass</h3>
@@ -142,7 +147,7 @@
                         </div>
                     </div>
 
-                    <div class="website">
+                    <div class="website" data-aos="fade-up" data-aos-duration="1000">
                         <div class="site-image image-2">
                             <img src="assets/horoscope.jpg" alt="photo of horoscope app">
                         </div>
@@ -163,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="website text-1">
+                    <div class="website text-1" data-aos="fade-up" data-aos-duration="1000">
                         <div class="site-text">
                             <h2>What's For Dinner?</h2>
                             <h3>Javascript / jQuery / HTML5 / Sass</h3>
@@ -188,7 +193,7 @@
 
                     
 
-                    <div class="website">
+                    <div class="website" data-aos="fade-up" data-aos-duration="1000">
                          <div class="site-image image-2">
                              <img src="assets/cocktails.jpg" alt="photo of app called 'last minute cocktails'">
                         </div>
@@ -210,7 +215,7 @@
                    </div>
 
 
-                    <div class="website text-1">
+                    <div class="website text-1" data-aos="fade-up" data-aos-duration="1000">
                     
                         <div class="site-text">
                             <h2>Fun PLace</h2>
@@ -238,7 +243,10 @@
 
             <section class="contact">
              
+                <div data-aos="fade-right">
                     <h1>Let's Chat!</h1>
+                </div>
+                    
               
                     <div class="wrapper">
                         <div class="contact-info" id="section-3">
@@ -266,6 +274,8 @@
                 <div class="copyright">
                    <p> Natalie Caracciolo 2019. Art by Jack Dettmer: <a href="https://www.instagram.com/art_of_jack/?hl=en"><i class="fab fa-instagram"></i></a></p>
             </footer>
+
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
             <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
             <script src="script.js"></script>

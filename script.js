@@ -3,3 +3,5 @@ const typed = new Typed('#typed', {
     bakcSpeed: 40,
     typeSpeed: 60
 });
+
+AOS.init();
