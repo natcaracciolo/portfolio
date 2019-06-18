@@ -200,7 +200,7 @@ ul li {
 }
 
 ul li a {
-  color: #222222;
+  color: #1B2A49;
   display: inline-block;
   padding: 1.5rem;
   font-size: 1.5rem;
@@ -430,7 +430,8 @@ ul li a {
 }
 
 .contact form input,
-textarea {
+textarea,
+.submit {
   font-size: 1rem;
   width: 100%;
   padding: .5rem;
@@ -445,8 +446,8 @@ textarea {
   outline: none;
 }
 
-.submit {
-  background-color: #1B2A49;
+.submit:hover {
+  background-color: #F0BC68;
 }
 
 img {
