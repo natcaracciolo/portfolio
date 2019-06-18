@@ -446,8 +446,41 @@ textarea,
   outline: none;
 }
 
-.submit:hover {
-  background-color: #F0BC68;
+.submit {
+  text-decoration: none;
+  color: #1B2A49;
+  font-family: 'oswald';
+  font-size: 25px;
+}
+
+.submit:focus {
+  background-color: #957c0e;
+}
+
+.submit:active {
+  background-color: #957c0e;
+}
+
+.submit, .submit:visited {
+  text-decoration: none;
+  position: relative;
+  color: #1B2A49;
+}
+
+.submit:after, .submit:visited:after {
+  content: '';
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background: #EE9772;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.submit:hover:after, .submit:visited:hover:after {
+  width: 100%;
 }
 
 img {
