@@ -288,12 +288,24 @@ ul li a {
 }
 
 .portfolio {
-  background-color: #D1E7CC;
+  background-color: #3E8E96;
+  padding: 4rem 0;
+}
+
+.site-image img {
+  -webkit-box-shadow: 20px 20px #C4D7D1;
+          box-shadow: 20px 20px #C4D7D1;
+}
+
+.image-2 img {
+  -webkit-box-shadow: -20px 20px #C4D7D1;
+          box-shadow: -20px 20px #C4D7D1;
 }
 
 .portfolio h1 {
-  padding-top: 3rem;
+  color: #C4D7D1;
   width: 50%;
+  padding: 1rem;
 }
 
 .websites {
@@ -374,6 +386,10 @@ ul li a {
 }
 
 .contact {
+  height: 100%;
+}
+
+.contact {
   background-color: #f0bc68;
   height: 100vh;
 }
@@ -413,6 +429,11 @@ textarea {
   background-color: #1B2A49;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 textarea {
   resize: none;
   overflow: auto;
@@ -421,7 +442,8 @@ textarea {
 }
 
 .headshot {
-  width: 22%;
+  height: 300px;
+  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
